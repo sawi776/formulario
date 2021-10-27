@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULARIO</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">>
+</head>
+<body>
+
+    <div class="formulario">  
+    <form action="enviar.php" method="post">
+        <table>
+            <tr>
+               
+                <td><input type="text" placeholder="digite su nombre" name="nombre" required> </td>
+                <tr>
+
+                    
+                <td><input type="password" placeholder="digite su contraseña" name="password" required> </td>
+                <tr>
+                    
+                    <td>
+                        <input type="radio" name="genero"value=F required>FEMENINO
+                        <input type="radio" name="genero"value=M required>MASCULINO
+
+                    </td>
+                    <tr>
+                       
+                        <td><input type="email" placeholder="digita tú correo" name="email" required>   </td>
+                        <tr>
+                            
+                            <td>
+                                <select name="programa" class="seleccion" required> 
+                                    <option selectded hidden value="">PROGRAMAS</option>
+                                <option value="redes"> REDES</option>    
+                                <option value="programacion"> PROGAMACION</option>    
+                                <option value="diseños"> DISEÑO GRAFICO</option>    
+                                <option value="analisis"> ANALISIS DE SISTEMAS</option>    
+                                <option value="mantenimiento"> MANTENIMIENTO</option>    
+                                
+                                </select>
+                                <input type="phone" placeholder="digita tu telefono"  name="telefono" required>
+                            </td>
+                        </tr>
+
+                    </tr>
+                </tr>
+                </tr>
+            </tr>
+
+
+            <tr>
+                <td>
+                    <input type="submit" value="ENVIAR" name="enviar">
+                </td>
+            </tr>
+            
+        </table>
+        
+    </form>
+
+</div>
+</body>
+</html>
+
